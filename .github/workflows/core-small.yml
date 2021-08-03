@@ -47,7 +47,7 @@ jobs:
             build-ffmpeg
       - uses: actions/upload-artifact@master
         with:
-          name: ffmpeg-core
+          name: ffmpeg-core-small
           path: ${{ env.DIST_PATH }}
 
   # Disable macos build due to there is no ldconfig command

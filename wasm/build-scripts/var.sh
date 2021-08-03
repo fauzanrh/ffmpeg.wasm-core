@@ -12,6 +12,9 @@ export PATH=$PATH:$EMSDK/upstream/bin
 # most browsers as there is no SharedArrayBuffer.
 FFMPEG_ST=${FFMPEG_ST:-no}
 
+# optimize for small binary size
+SMALL_BUILD=${SMALL_BUILD:-no}
+
 # Root directory
 ROOT_DIR=$PWD
 
