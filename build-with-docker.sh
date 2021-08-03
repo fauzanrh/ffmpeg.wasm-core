@@ -10,5 +10,6 @@ docker run \
   -v $PWD:/src \
   -v $PWD/wasm/cache:/emsdk_portable/.data/cache/wasm \
   -e FFMPEG_ST=${FFMPEG_ST:-no} \
+  -e SMALL_BUILD=${SMALL_BUILD:-no} \
   emscripten/emsdk:$EM_VERSION \
   bash ./build.sh "$@"

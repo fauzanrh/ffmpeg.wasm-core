@@ -44,7 +44,7 @@ if [[ "$FFMPEG_ST" == "yes" ]]; then
   EXTRA_FFMPEG_CONF_FLAGS="--disable-pthreads --disable-w32threads --disable-os2threads"
 fi
 
-if [["$SMALL_BUILD" == "YES"]]; then
+if [["$SMALL_BUILD" == "yes"]]; then
   EXTRA_FFMPEG_CONF_FLAGS+=" --enable-small"
 fi
 
