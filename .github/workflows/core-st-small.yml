@@ -1,4 +1,4 @@
-name: Build FFmpeg.wasm
+name: Build FFmpeg.wasm single thread small
 on:
   push:
     branches:
