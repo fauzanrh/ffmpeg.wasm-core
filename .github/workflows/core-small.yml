@@ -9,7 +9,7 @@ on:
 
 env:
   FFMPEG_ST: no
-  SMALL_BUILD: no
+  SMALL_BUILD: yes
   DIST_PATH: wasm/packages/core/dist
   CACHE_KEY_PREFIX: ffmpeg.wasm-core
   # EM_VERSION: 2.0.8
