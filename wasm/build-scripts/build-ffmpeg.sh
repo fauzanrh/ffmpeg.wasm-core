@@ -26,7 +26,6 @@ FLAGS=(
   -lavdevice -lavfilter -lavformat -lavcodec -lswresample -lswscale -lavutil -lpostproc -lm -lx264
   fftools/ffmpeg_opt.c fftools/ffmpeg_filter.c fftools/ffmpeg_hw.c fftools/cmdutils.c fftools/ffmpeg.c
   -s USE_SDL=2                                  # use SDL2
-  -s ENVIRONMENT="web,worker"
   -s INVOKE_RUN=0                               # not to run the main() in the beginning
   -s EXIT_RUNTIME=1                             # exit runtime after execution
   -s MODULARIZE=1                               # use modularized version to be more flexible
