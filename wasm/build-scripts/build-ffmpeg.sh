@@ -27,6 +27,7 @@ FLAGS=(
   fftools/ffmpeg_opt.c fftools/ffmpeg_filter.c fftools/ffmpeg_hw.c fftools/cmdutils.c fftools/ffmpeg.c
   -s USE_SDL=2                                  # use SDL2
   -s INVOKE_RUN=0                               # not to run the main() in the beginning
+  -s ENVIRONMENT="web"
   -s EXIT_RUNTIME=1                             # exit runtime after execution
   -s MODULARIZE=1                               # use modularized version to be more flexible
   -s EXPORT_NAME="createFFmpegCore"             # assign export name for browser
